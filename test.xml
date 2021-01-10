@@ -13,11 +13,11 @@
 			<turbo:content>
 				<![CDATA[
 					<header>
-						<h1>Протсо список</h1>
+						<h1>Просто список</h1>
 						<menu>
-							<a href="https://turbosite.herokuapp.com/">О сайте</a>
-							<a href="https://turbosite.herokuapp.com/">Статьи</a>
-							<a href="https://turbosite.herokuapp.com/">Новости</a>
+							<a href="https://turbosite.herokuapp.com/">Ссылка 1</a>
+							<a href="https://turbosite.herokuapp.com/">Ссылка 2</a>
+							<a href="https://turbosite.herokuapp.com/">Ссылка 3</a>
 						</menu>
 					</header>
 					<p>Например, на сайте статей есть поиск, он ищет ключевое слово по полям: 
