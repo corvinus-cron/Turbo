@@ -13,14 +13,14 @@
 			<turbo:content>
 				<![CDATA[
 					<header>
-						<h1>Просто список</h1>
+						<h1>Задание</h1>
 						<menu>
-							<a href="https://turbosite.herokuapp.com/home.html">Ссылка 1</a>
-							<a href="https://turbosite.herokuapp.com/home.html">Ссылка 2</a>
-							<a href="https://turbosite.herokuapp.com/home.html">Ссылка 3</a>
+							<a href="https://turbosite.herokuapp.com/home.html">Главная</a>
+							<a href="https://turbosite.herokuapp.com/home.html">О нас</a>
+							<a href="https://turbosite.herokuapp.com/home.html">Контакты</a>
 						</menu>
 					</header>
-					<p>Тестовое задание по созданию турбо-страницы. Выполнено Лазаренко Александром.</p>
+					<p>Проект по созданию турбо-страницы. Выполнено Лазаренко Александром.</p>
 				]]>
 			</turbo:content>
 		</item>
