@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:yandex="http://news.yandex.ru" 
+     xmlns:media="http://search.yahoo.com/mrss/" 
+     xmlns:turbo="http://turbo.yandex.ru"
+     version="2.0">
+	<channel>
+		<title>Home</title>
+		<link>https://turbosite.herokuapp.com/</link>
+		<description/>
+		<language>ru</language>
+		<item turbo="true">
+			<link>https://turbosite.herokuapp.com/</link>
+			<turbo:content>
+				<![CDATA[
+					<header>
+						<h1>Протсо список</h1>
+						<menu>
+							<a href="https://turbosite.herokuapp.com/">О сайте</a>
+							<a href="https://turbosite.herokuapp.com/">Статьи</a>
+							<a href="https://turbosite.herokuapp.com/">Новости</a>
+						</menu>
+					</header>
+					<p>Например, на сайте статей есть поиск, он ищет ключевое слово по полям: 
+					название статьи, title и основной текст. SQL запрос получается следующим:</p>
+				]]>
+			</turbo:content>
+		</item>
+	</channel>
+</rss>
