@@ -1,28 +1,47 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<rss xmlns:yandex="http://news.yandex.ru" 
-     xmlns:media="http://search.yahoo.com/mrss/" 
+<rss xmlns:yandex="http://news.yandex.ru"
+     xmlns:media="http://search.yahoo.com/mrss/"
      xmlns:turbo="http://turbo.yandex.ru"
      version="2.0">
-	<channel>
-		<title>Home</title>
-		<link>https://turbosite.herokuapp.com/home.html</link>
-		<description/>
-		<language>ru</language>
-		<item turbo="true">
-			<link>https://turbosite.herokuapp.com/home.html</link>
-			<turbo:content>
-				<![CDATA[
-					<header>
-						<h1>Задание</h1>
+    <channel>
+        <!-- Информация о сайте-источнике -->
+        <title>Название канала</title>
+        <link>http://www.example.com/</link>
+        <description>Краткое описание канала</description>
+        <language>ru</language>
+        <turbo:analytics></turbo:analytics>
+        <turbo:adNetwork></turbo:adNetwork>
+        <item turbo="true">
+            <!-- Информация о странице -->
+            <turbo:extendedHtml>true</turbo:extendedHtml>
+            <link>http://www.example.com/category/sub-category/page1.html</link>
+            <turbo:source></turbo:source>
+            <turbo:topic></turbo:topic>
+            <author>Александр Лазаренко</author>
+            <metrics>
+                <yandex schema_identifier="Список">
+                    <breadcrumblist>
+                        <breadcrumb url="https://turbosite.herokuapp.com/" text="Домашняя"/>
+                        <breadcrumb url="https://turbosite.herokuapp.com/" text="Категория"/>
+                        <breadcrumb url="https://turbosite.herokuapp.com/" text="Подкатегория"/>
+                        <breadcrumb url="https://turbosite.herokuapp.com/" text="Пример страницы"/>
+                    </breadcrumblist>
+                </yandex>
+            </metrics>
+            <yandex:related></yandex:related>
+            <turbo:content>
+                <![CDATA[
+                    <header>
+						<h1>Рандомный тестовый заголовок</h1>
 						<menu>
-							<a href="https://turbosite.herokuapp.com/home.html">Главная</a>
-							<a href="https://turbosite.herokuapp.com/home.html">О нас</a>
-							<a href="https://turbosite.herokuapp.com/home.html">Контакты</a>
+							<a href="https://turbosite.herokuapp.com/">Ссылка 1</a>
+							<a href="https://turbosite.herokuapp.com/">Ссылка 2</a>
+							<a href="https://turbosite.herokuapp.com/">Ссылка 3</a>
 						</menu>
 					</header>
-					<p>Проект по созданию турбо-страницы. Выполнено Лазаренко Александром.</p>
-				]]>
-			</turbo:content>
-		</item>
-	</channel>
+					<p>Выполнил Лазаренко Александр</p>
+			]]>
+            </turbo:content>
+        </item>
+    </channel>
 </rss>
